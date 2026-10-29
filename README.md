@@ -3,22 +3,12 @@
 **Room 1:** Phishing Analysis Fundamentals (SOC Level 1 Path, Phishing Analysis module)
 **Room 2:** Windows Forensics 1 (Introduction to Windows Registry Forensics)
 
-| | |
-|---|---|
-| **Name** | |
-| **Student ID** | |
-| **Programme** | BE Software Engineering, College of Science and Technology |
-| **Date** | 22 October 2026 |
-
----
-
 ## Contents
 
 - [Part A: Phishing Analysis Fundamentals](#part-a-phishing-analysis-fundamentals)
 - [Part B: Windows Forensics 1](#part-b-windows-forensics-1)
 - [Overall Conclusion](#overall-conclusion)
 
----
 
 # Part A: Phishing Analysis Fundamentals
 
@@ -303,8 +293,6 @@ The USBSTOR bookmark (ControlSet001\Enum\USBSTOR) lists two devices. The Kingsto
 ## B6. Conclusion
 
 This room showed that the registry holds a lot of evidence about what happened on a Windows machine. From only three hives in a triage collection I was able to find the user accounts and which one was never used, the password hint of the main user, when a text file was opened, a program run from a network drive and when a USB stick was last plugged in. I also learned that different keys give different details. For example BAM did not have the python installer for this user, but UserAssist did, so it is better to check more than one artifact. Registry Explorer made this much easier than regedit because of its bookmarks and because it decodes values like UserAssist automatically.
-
----
 
 # Overall Conclusion
 
